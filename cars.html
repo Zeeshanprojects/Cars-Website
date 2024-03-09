@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/cars.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Cars</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed; width: 100%; z-index: 1;">
+        <div class="container-fluid">
+            <img src="images/logo.png">
+            <a class="navbar-brand" href="#">CityCab</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="margin-left: 60px; color: black;font-weight: bolder; font-size: large;">Welcome Back,John!</a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="margin-left: 700px; color: black;font-size: small;font-weight: bold;">John Migurdia</a>
+                    </li>
+
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-6" style="margin-top: 30px;">CARS</div>
+            <div class="col-6">
+                <button type="button" class="btn btn-outline-success">Add New Car</button>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar bg-light">
+
+        <img style="margin-left: 10px;" src="images/dashboard.png"><span style="margin-left: 20px;">Dashboard</span>
+        <br><br>
+        <img style="margin-left: 10px; " src="images/booking.png"><span style="margin-left: 20px; ">Booking</span>
+        <br><br>
+        <img style="margin-left: 10px;" src="images/riders.png"><span style="margin-left: 20px; ">Riders</span>
+        <br><br>
+        <img style="margin-left: 10px;" src="images/dispatchers.png"><span style="margin-left: 20px; ">Dispatchers</span>
+        <br><br>
+        <img style="margin-left: 10px;" src="images/drivers.png"><span style="margin-left: 20px; ">Drivers</span>
+        <br><br>
+        <img style="margin-left: 10px;" src="images/reports.png"><span style="margin-left: 20px; ">Reports</span>
+        <br><br>
+        <img style="margin-left: 10px;" src="images/tracking.png"><span style="margin-left: 20px; ">Tracking</span>
+        <br><br>
+        <img style="margin-left: 10px;" src="images/pricing.png"><span style="margin-left: 20px; ">Pricing</span>
+        <br><br>
+        <img style="margin-left: 10px;" src="images/feedback.png"><span style="margin-left: 20px; ">Feedback</span>
+        <br><br>
+        <img style="margin-left: 10px;" src="images/payments.png"><span style="margin-left: 20px; ">Payments</span>
+        <br><br>
+        <button type="button" class="btn btn-success " style="height: 80px; margin-left :10px; width: 150px;border-top-left-radius: 10px;border-bottom-left-radius: 10px; border-top-right-radius: 10px;border-bottom-left-radius: 10px">Create Booking</button>
+
+
+
+    </div>
+    <div class="section">
+        <div class="main">
+            <div class="row" style="margin-left: 5px;">
+
+                <div class="col-6">
+                    <h3>Cars</h3>
+
+                </div>
+                <div class="col-6">
+
+                    <button type="button" class="btn btn-outline-success" style="margin-left: 390px; color: darkgreen; border: 2px solid green; margin-top: 5px;">Add New Car</button>
+                </div>
+
+            </div>
+
+            <div class="container-fluid" style="margin-top: 10px;">
+                <div class="row">
+                    <div class="col-2">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    </div>
+                    <div class="col-2">
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="width: 200px; margin-left: 20px;">
+                                  Car Type
+                                </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="width: 200px; margin-left: 40px;">
+                                  Transmission
+                                </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <button type="button" style="width: 200px; margin-left: 60px;" class="btn btn-light">Reg.Date  <i class="far fa-calendar"></i></button>
+                    </div>
+                    <div class="col-4">
+                        <div class="dropdown">
+                            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: 170px;width: 200px;">
+                                  ResetFilter
+                                </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <br>
+
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-6">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="images/swift s .png" class="g-fluid rounded-start " style="padding:6px; ">
+                                </div>
+                                <div class="col-md-8 ">
+                                    <div class="card-body ">
+                                        <button type="button " class="btn btn-light " style="color: darkgreen; ">On Trip</button>
+                                        <h6 class="card-title ">Maruti Suzuki Swift (VX1)</h6>
+                                        <div class="row ">
+                                            <div class="col-3 ">
+                                                <i class="fas fa-user "> </i>
+                                                <span>6</span>
+                                            </div>
+                                            <div class="col-5 ">
+                                                <i class="fas fa-cog "></i>
+                                                <span>Manual</span>
+                                            </div>
+                                            <div class="col-4 ">
+                                                <i class="fas fa-gas-pump "> </i>
+                                                <span>Petrol</span>
+                                            </div>
+                                        </div>
+                                        <u>View More</u>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 ">
+                        <div class="card mb-3 ">
+                            <div class="row g-0 ">
+                                <div class="col-md-4 ">
+                                    <img src="images/innova.png " class="img-fluid rounded-start " style="padding:6px; ">
+                                </div>
+                                <div class="col-md-8 ">
+
+                                    <div class="card-body ">
+                                        <button type="button " class="btn btn-light " style="color: darkgreen; ">On Trip</button>
+                                        <h6 class="card-title ">Toyota Innova (GX7)</h6>
+                                        <div class="row ">
+                                            <div class="col-3 ">
+                                                <i class="fas fa-user "> </i>
+                                                <span>6</span>
+                                            </div>
+                                            <div class="col-5 ">
+                                                <i class="fas fa-cog "></i>
+                                                <span>Manual</span>
+                                            </div>
+                                            <div class="col-4 ">
+                                                <i class="fas fa-gas-pump "></i>
+                                                <span>Diesal</span>
+                                            </div>
+                                        </div>
+                                        <u>View More</u>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid ">
+                <div class="row ">
+                    <div class="col-6 ">
+                        <div class="card mb-3 ">
+                            <div class="row g-0 ">
+                                <div class="col-md-4 ">
+
+                                    <img src="images/au.png " class="img-fluid rounded-start " style="padding:6px; ">
+                                </div>
+                                <div class="col-md-8 ">
+
+                                    <div class="card-body ">
+                                        <button type="button " class="btn btn-light " style="color: darkgreen; ">On Trip</button>
+                                        <h6 class="card-title ">Hyundai Aura (SX-0)</h6>
+                                        <div class="row ">
+                                            <div class="col-3 ">
+                                                <i class="fas fa-user "> </i>
+                                                <span>5</span>
+                                            </div>
+                                            <div class="col-5 ">
+                                                <i class="fas fa-cog "> </i>
+                                                <span>Manual</span>
+                                            </div>
+                                            <div class="col-4 ">
+                                                <i class="fas fa-gas-pump "></i>
+                                                <span>Petrol</span>
+
+                                            </div>
+                                        </div>
+                                        <u>View More</u>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 ">
+                        <div class="card mb-3 ">
+                            <div class="row g-0 ">
+                                <div class="col-md-4 ">
+                                    <img src="images/er.png " class="img-fluid rounded-start " style="padding:6px; ">
+                                </div>
+                                <div class="col-md-8 ">
+
+                                    <div class="card-body ">
+                                        <button type="button " class="btn btn-light " style="color: darkgreen; ">On Trip</button>
+                                        <h6 class="card-title ">Maruti Suzuki Ertiga</h6>
+                                        <div class="row ">
+                                            <div class="col-3 ">
+                                                <i class="fas fa-user "> </i>
+                                                <span>6</span>
+                                            </div>
+                                            <div class="col-5 ">
+                                                <i class="fas fa-cog "></i>
+                                                <span>Manual</span>
+                                            </div>
+                                            <div class="col-4 ">
+                                                <i class="fas fa-gas-pump "> </i>
+                                                <span>CNG</span>
+
+                                            </div>
+                                        </div>
+                                        <u>View More</u>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid ">
+                <div class="row ">
+                    <div class="col-6 ">
+                        <div class="card mb-3 ">
+                            <div class="row g-0 ">
+                                <div class="col-md-4 ">
+                                    <img src="images/wg.png " class="img-fluid rounded-start " style="padding:6px; ">
+                                </div>
+                                <div class="col-md-8 ">
+                                    <div class="card-body ">
+                                        <button type="button " class="btn btn-light " style="color: darkgreen; ">On Trip</button>
+                                        <h6 class="card-title ">Maruti Suzuki Wagonr (VX1)</h6>
+                                        <div class="row ">
+                                            <div class="col-3 ">
+                                                <i class="fas fa-user "> </i>
+                                                <span>4</span>
+                                            </div>
+                                            <div class="col-5 ">
+                                                <i class="fas fa-cog "> </i>
+                                                <span>Manual</span>
+                                            </div>
+                                            <div class="col-4 ">
+                                                <i class="fas fa-gas-pump "> </i>
+                                                <span>CNG</span>
+
+                                            </div>
+                                        </div>
+                                        <u>View More</u>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 ">
+                        <div class="card mb-3 ">
+                            <div class="row g-0 ">
+                                <div class="col-md-4 ">
+                                    <img src="images/Screenshot 2023-10-02 174034.png" class="img-fluid rounded-start " style="padding:6px; ">
+                                </div>
+                                <div class="col-md-8 ">
+
+                                    <div class="card-body ">
+                                        <button type="button " class="btn btn-light " style="color: darkgreen; ">On Trip</button>
+                                        <h6 class="card-title ">Maruti Suzuki Celerio</h6>
+                                        <div class="row ">
+                                            <div class="col-3 ">
+                                                <i class="fas fa-user "> </i>
+                                                <span>4</span>
+                                            </div>
+                                            <div class="col-5 ">
+                                                <i class="fas fa-cog "> 
+                                                </i>
+                                                <span>Manual</span>
+                                            </div>
+                                            <div class="col-4 ">
+                                                <i class="fas fa-gas-pump "></i>
+                                                <span>CNG</span>
+
+                                            </div>
+                                        </div>
+                                        <u>View More</u>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br> </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+</body>
+
+</html>
